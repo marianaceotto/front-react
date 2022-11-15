@@ -1,23 +1,16 @@
-import React from 'react';
-// import Carrinho from "./components/header/HeaderTopo.js";
-// import Produtos from "./components/main/Produtos";
+import React from "react"
+import Header from "./components/Header"
+import Produtos from "./components/Produtos"
+
 
 
 function App() {
   return (
-    <div>
-      <p>oi teste</p>
-    </div>
-    // <Carrinho/>
-    // <Filtros/>
-    // <Produtos/>
+    <>
+      <Header />
+      <Produtos/>
+    </>
   );
 }
 
-export default App;
-
-
-//ESTRUTURA:
-
-// Header : carrinho e filter
-// main: produtos
+export default App
